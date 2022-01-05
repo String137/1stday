@@ -1,4 +1,8 @@
 
+* {
+  -webkit-text-size-adjust: none;
+}
+
 .App {
   text-align: center;
   width: 100%;
@@ -43,6 +47,7 @@ form {
   height: 8.5%;
   font-size: min(2vh,2.3vw);
   letter-spacing: 1px;
+  padding-left: 0.6vw;
   
   border: 2px solid #5785e0;
   border-radius: 20px;
@@ -55,8 +60,12 @@ form {
   width: 20%;
   height: 7%;
   background-color: transparent;
-  font-size: min(1.4vh,1.7vw);
-
+  background-image: url(chamga.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-position-y: center;
+  font-size: min(1.8vh,2vw);
   border: 1px solid #8a8a8a;
   border-radius: 10px;
 }

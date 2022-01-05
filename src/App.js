@@ -23,6 +23,7 @@ function App() {
     return out;
   }
 
+ 
   function pass(params) {
     const hashedAnswer = 51665;
     var curVal = pwInput.current.value;
@@ -46,9 +47,8 @@ function App() {
         
         <div className="window">
         <form>
-        <input ref={pwInput} placeholder="암호를 입력하세요." className="password" type="password" />
-          
-          <button id="button" className="button" onClick={pass}> 참가</button>
+        <input name="box" ref={pwInput} placeholder="암호를 입력하세요." className="password" type="password"/>
+          <button id="button" className="button" onClick={pass}></button>
         </form>
         
         </div>
